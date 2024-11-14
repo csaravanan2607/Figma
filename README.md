@@ -2,10 +2,10 @@
 # Event Registration Web Application
 # Date : 
 
-## AIM:
+## AIM :
 To design, develop and deploy a web application for event registration.
 
-## DESIGN STEPS:
+## DESIGN STEPS :
 
 ### Step 1:
 Create a new frame.
@@ -30,10 +30,10 @@ Validate the HTML and CSS code.
 
 Publish the website in the given URL.
 
-## DESIGN TOOL:
+## DESIGN TOOL :
 Figma
 
-## CODE:
+## CODE :
 ```
 Page 1: Register Button
 <!-- Page 1 HTML -->
@@ -78,9 +78,9 @@ Page 4: Thank You Page
 </body>
 ```
 
-## OUTPUT:
+## OUTPUT :
 ![Screenshot 2024-11-09 201034](https://github.com/user-attachments/assets/9cbbeec3-1d8a-4071-a133-eb161fe12c35)
 
 
-## RESULT:
+## RESULT :
 The program to design, develop and deploy a web application for event registration is completed successfully.
