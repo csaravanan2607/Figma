@@ -1,5 +1,6 @@
-# Ex09 Event Registration Web Application
-## Date:07/11/23
+# Ex09 
+# Event Registration Web Application
+# Date : 
 
 ## AIM:
 To design, develop and deploy a web application for event registration.
@@ -31,429 +32,55 @@ Publish the website in the given URL.
 
 ## DESIGN TOOL:
 Figma
+
+## CODE:
 ```
-
-/* home page */
-
-position: relative;
-width: 360px;
-height: 640px;
-
-background: #F51616;
-
-
-/* Saveetha Engineering College */
-
-position: absolute;
-width: 329px;
-height: 28px;
-left: 18px;
-top: 19px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #FFFFFF;
-
-
-
-/* Line 1 */
-
-position: absolute;
-width: 360px;
-height: 0px;
-left: 0px;
-top: 76px;
-
-border: 4px solid #2622FA;
-
-
-/* WhatsApp Image 2023-11-06 at 11.28 1 */
-
-position: absolute;
-width: 132px;
-height: 122px;
-left: 121px;
-top: 89px;
-
-background: url(WhatsApp Image 2023-11-06 at 11.28.jpg);
-
-
-/* Affilated to Anna University */
-
-position: absolute;
-width: 360px;
-height: 33px;
-left: 0px;
-top: 240px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #FFFFFF;
-
-
-
-/* NIRF Ranked Autonomous Institution */
-
-position: absolute;
-width: 360px;
-height: 46px;
-left: 0px;
-top: 296px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #FFFFFF;
-
-
-
-/* Rectangle 1 */
-
-position: absolute;
-width: 269px;
-height: 67px;
-left: 44px;
-top: 404px;
-
-background: #12F16B;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-
-/* Rectangle 2 */
-
-position: absolute;
-width: 269px;
-height: 67px;
-left: 44px;
-top: 404px;
-
-background: #12F16B;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-
-/* LOGIN */
-
-position: absolute;
-width: 198px;
-height: 31px;
-left: 88px;
-top: 425px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #3C3939;
-
-
-
-/* Login Page */
-
-position: relative;
-width: 360px;
-height: 640px;
-
-background: #EBFF07;
-
-
-/* Saveetha Engineering College */
-
-position: absolute;
-width: 329px;
-height: 28px;
-left: 6px;
-top: 24px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #ED1313;
-
-
-
-/* Line 2 */
-
-position: absolute;
-width: 360px;
-height: 0px;
-left: 0px;
-top: 78px;
-
-border: 4px solid #2622FA;
-
-
-/* Background */
-
-position: absolute;
-width: 132px;
-height: 122px;
-left: 105px;
-top: 86px;
-
-background: url(background.jpg);
-
-
-/* Rectangle 2 */
-
-position: absolute;
-width: 200px;
-height: 39px;
-left: 77px;
-top: 307px;
-
-background: #0EE7F4;
-
-
-/* Rectangle 3 */
-
-position: absolute;
-width: 200px;
-height: 39px;
-left: 71px;
-top: 445px;
-
-background: #0EE7F4;
-
-
-/* Username */
-
-position: absolute;
-width: 147px;
-height: 24px;
-left: 77px;
-top: 270px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-
-color: #F40505;
-
-
-
-/* Password */
-
-position: absolute;
-width: 154px;
-height: 21px;
-left: 59px;
-top: 398px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-
-color: #EE0B0B;
-
-
-
-/* Rectangle 2 */
-
-position: absolute;
-width: 269px;
-height: 63px;
-left: 45px;
-top: 524px;
-
-background: #12F16B;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-
-/* SUBMIT */
-
-position: absolute;
-width: 198px;
-height: 31px;
-left: 73px;
-top: 546px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #141212;
-
-
-
-/* SEC PAGE */
-
-position: relative;
-width: 360px;
-height: 640px;
-
-background: #EB449E;
-
-
-/* Saveetha Engineering College */
-
-position: absolute;
-width: 329px;
-height: 28px;
-left: 0px;
-top: 23px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #141212;
-
-
-
-/* DEPARTMENTS */
-
-position: absolute;
-width: 329px;
-height: 28px;
-left: 15px;
-top: 223px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #0F47B5;
-
-
-
-/* IT */
-
-position: absolute;
-width: 329px;
-height: 28px;
-left: 23px;
-top: 349px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #0F47B5;
-
-
-
-/* AI-ML */
-
-position: absolute;
-width: 329px;
-height: 28px;
-left: 23px;
-top: 418px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #0F47B5;
-
-
-
-/* AI-DS */
-
-position: absolute;
-width: 329px;
-height: 28px;
-left: 31px;
-top: 495px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #0F47B5;
-
-
-
-/* CSE */
-
-position: absolute;
-width: 329px;
-height: 28px;
-left: 15px;
-top: 292px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-
-color: #0F47B5;
-
-
-
-/* Line 3 */
-
-position: absolute;
-width: 360px;
-height: 0px;
-left: 0px;
-top: 72px;
-
-border: 4px solid #2622FA;
-
-
-/* WhatsApp Image 2023-11-06 at 11.28 3 */
-
-position: absolute;
-width: 132px;
-height: 122px;
-left: 114px;
-top: 80px;
-
-background: url(WhatsApp Image 2023-11-06 at 11.28.jpg);
-
+Page 1: Register Button
+<!-- Page 1 HTML -->
+<body style="background:#00a4e8;display:flex;align-items:center;justify-content:center;height:100vh;">
+    <img src="college_logo.png" style="width:100px;margin-bottom:50px;">
+    <button style="background:#ff00c1;color:white;font-size:24px;padding:10px 30px;border:none;border-radius:5px;">REGISTER</button>
+</body>
+
+Page 2: AI Events List
+<!-- Page 2 HTML -->
+<body style="background:linear-gradient(45deg,#1e88e5,#f06292);color:white;display:flex;align-items:center;justify-content:center;height:100vh;flex-direction:column;">
+    <h1 style="font-size:28px;font-weight:bold;">ARTIFICIAL INTELLIGENCE EVENTS</h1>
+    <ul style="list-style:none;padding:0;font-size:20px;line-height:1.8;">
+        <li>The Rise of Generative AI</li>
+        <li>EU AI Act Draft</li>
+        <li>DeepMind’s AlphaFold Breakthrough</li>
+        <li>Launch of ChatGPT and Public AI Awareness</li>
+        <li>AI in the COVID-19 Pandemic</li>
+        <li>China’s National AI Plan</li>
+        <li>Ethics and Bias Concerns in AI</li>
+        <li>AI Alignment and Safety Conferences</li>
+    </ul>
+</body>
+```
+```
+Page 3: Registration Form
+<!-- Page 3 HTML -->
+<body style="background:url('background_texture.jpg') center/cover;display:flex;align-items:center;justify-content:center;height:100vh;">
+    <form style="background:rgba(255,255,255,0.8);padding:20px;border-radius:10px;width:80%;max-width:400px;">
+        <h2 style="color:#ff0000;text-align:center;">EVENT REGISTRATION FORM</h2>
+        <label style="color:#ff0000;">Name</label><input type="text" style="width:100%;padding:8px;margin:5px 0 15px;">
+        <label style="color:#ff0000;">Register No</label><input type="text" style="width:100%;padding:8px;margin:5px 0 15px;">
+        <label style="color:#ff0000;">Age</label><input type="number" style="width:100%;padding:8px;margin:5px 0 15px;">
+        <button style="background:#00a4e8;color:white;width:100%;padding:10px;border:none;border-radius:5px;">REGISTER</button>
+    </form>
+</body>
+
+Page 4: Thank You Page
+<!-- Page 4 HTML -->
+<body style="background:url('robot_image.jpg') center/cover;color:white;display:flex;align-items:center;justify-content:center;height:100vh;">
+    <h1 style="font-size:48px;font-weight:bold;">THANK YOU!</h1>
+</body>
 ```
 
 ## OUTPUT:
-```
-![283105546-8c2039fc-d8e6-4658-ab8b-d2ac61954ff1](https://github.com/NaveenSivamalai/Figma/assets/123792574/abaff156-5a56-455e-8be5-5f2248f18a88)
+![Screenshot 2024-11-09 201034](https://github.com/user-attachments/assets/9cbbeec3-1d8a-4071-a133-eb161fe12c35)
 
-```
 
 ## RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
